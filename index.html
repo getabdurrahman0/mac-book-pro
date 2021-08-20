@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MacBook Pro</title>
+    <!-- css  -->
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <!-- main section start  -->
+    <main>
+      <section>
+        <div class="flex">
+          <!-- product image part -->
+          <div class="half_width">
+            <img src="./images/mac.png" alt="" />
+          </div>
+
+          <!-- Product Details part  -->
+          <div class="half_width">
+            <h1 class="product_heading">
+              Customize your Blue 24-inch iMac with Apple M1 chip
+            </h1>
+            <p class="product_details">
+              Apple M1 chip with 8-core CPU with 4 performance corer and 4
+              efficiency cores. 7-core GPU, and 16-core Neural Engine 8GB
+              unified memory 256GB SSH storage Two Thunderbolt/ USB 4
+              ports,Magic Mouse,Magic Keyboard - US English
+            </p>
+
+            <!-- memory options  -->
+            <div class="options">
+                <h5>Memory</h5>
+              <button id="8gb_memory" class="option_btn">8GB unified memory</button>
+              <button id="16gb_memory" class="option_btn">16GB unified memory</button>
+            </div>
+            <!-- storage options  -->
+       
+            <div class="options">
+                <h5>storage</h5>
+              <button id="256gb_ssd" class="option_btn">256GB SSD storage</button>
+              <button id="512gb_ssd" class="option_btn">512GB SSD storage</button>
+              <button id="1tb_ssd" class="option_btn">1TB SSD storage</button>
+            </div>
+            <!-- delivery options  -->
+          
+            <div class="options">
+                <h5>Choose your delivery option</h5>
+              <button id="prime_delivery" class="option_btn">
+                Friday,Aug 25 FREE Prime Delivery
+              </button>
+              <button id="fast_delivery" class="option_btn">
+                Friday,Aug 21 Delivery charge $20
+              </button>
+            </div>
+            <!-- configuration part end  -->
+
+            <!-- cost calculation part start  -->
+            <div class="costs">
+                <div class="cost">
+                    <h5>Best Price</h5> <h5>$ <span id="base_price">1299</span> </h5>
+                </div>            
+                <div class="cost">
+                    <h5>Extra Memory Cost</h5> <h5>$ <span id="memory_cost">0</span> </h5>
+                </div>            
+                <div class="cost">
+                    <h5>Extra Storage Cost</h5> <h5>$ <span id="storage_cost">0</span> </h5>
+                </div>            
+                <div class="cost">
+                    <h5>Delivery charge</h5> <h5>$ <span id="delivery_cost">0</span> </h5>
+                </div>
+                <hr>
+                <div class="cost">
+                    <h5>Total Price</h5> <h5>$ <span id="total_cost">1299</span> </h5>
+                </div>
+                <!-- promo code part  -->
+                <p>Add Pomo Code</p> 
+                <div class="promo_code">
+                    <input type="text" id="code_input">
+                    <button id="promo_code_btn">Apply</button>
+                </div>
+            </div>
+          </div>
+        </div>
+        <!-- discount price part  -->
+        <h2 class="discount_price">Total: $ <span id="discount_price">1299</span> </h2>
+      </section>
+    </main>
+    <!-- external script  -->
+    <script src="./js/app.js"></script>
+  </body>
+</html>

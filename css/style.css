@@ -1,0 +1,92 @@
+/* style start  */
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* common styles  */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+  }
+  h1 {
+    font-size: 2em;
+  }
+  h5 {
+    font-size: 1em;
+    line-height: 0%;
+    margin: 20px 0px;
+  }
+  hr {
+    margin-top: 0;
+  }
+  
+  /* flex  style  */
+  .flex {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 70px;
+    border-bottom: 1px solid lightgray;
+  }
+  .half_width img {
+    width: 70%;
+    
+    margin:35px 35px auto;
+  }
+  .half_width {
+    width: 50%;
+  }
+  /* .options */
+
+  .option_btn {
+    font-size: 15px;
+    padding: 10px 15px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: white;
+  }
+  .option_btn:hover {
+    background-color: #333;
+    color:white;
+  }
+  
+  /* cost calculate part style  */
+  .costs {
+    width: 50%;
+    margin-top: 40px;
+  }
+  .cost {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  /* promo code part styles  */
+  .promo_code {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  #code_input {
+    width: 70%;
+    font-size: 20px;
+    margin: 0;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  #promo_code_btn {
+    padding: 10px 15px;
+    background-color: rgba(255, 0, 0, 0.76);
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+  }
+  #promo_code_btn:hover{
+    background-color: rgb(51,51,51);
+  }
+  
+  /* discount price par style */
+  .discount_price {
+    text-align: center;
+  }
